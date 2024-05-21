@@ -24,17 +24,23 @@ function App() {
   useEffect(() => {
     magic.user.isLoggedIn().then((isLoggedIn: boolean) => {
       console.log('isLoggedIn', isLoggedIn);
-      if (isLoggedIn) {
-        magic.user
-          .getInfo()
-          .then((metadata: any) => {
-            console.log('user info', metadata);
-            setPublicAddress(metadata.publicAddress);
-          })
-          .catch(e => console.error(e));
-      }
+      if (isLoggedIn) getInfo();
     });
   }, []);
+
+  const isLoggedIn = () => {
+    magic.user.isLoggedIn().then((res) => console.log('isLoggedIn', res));
+  }
+
+  const getInfo = () => {
+    magic.user
+    .getInfo()
+    .then((metadata: any) => {
+      console.log('user info', metadata);
+      setPublicAddress(metadata.publicAddress);
+    })
+    .catch(e => console.error(e));
+  }
 
   const login = () => {
     magic.wallet
@@ -69,6 +75,8 @@ function App() {
           <div className="container">
             <h1>Current User</h1>
             <div className="info">{publicAddress}</div>
+            <button onClick={isLoggedIn}>isLoggedIn</button>
+            <button onClick={getInfo}>GetUserInfo</button>
             <button onClick={logout}>Logout</button>
           </div>
           <div className="container">
