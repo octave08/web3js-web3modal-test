@@ -2054,32 +2054,32 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.2.0"
 
-"@magic-ext/web3modal-ethers5@0.1.1-canary.742.9162849285.0":
-  version "0.1.1-canary.742.9162849285.0"
-  resolved "https://registry.yarnpkg.com/@magic-ext/web3modal-ethers5/-/web3modal-ethers5-0.1.1-canary.742.9162849285.0.tgz#0bd0da2f2947deda817bf349ee7e3d7a6cce8d60"
-  integrity sha512-3IlBX6eXFSkboWGtBJenN/oJZM4H00gjs5PVjtx7ogNkipCnyIC8WmoUyl2u9Cx6R+90mZqFazlXnVUkA+dDMw==
+"@magic-ext/web3modal-ethers5@0.1.1-canary.742.9175925480.0":
+  version "0.1.1-canary.742.9175925480.0"
+  resolved "https://registry.yarnpkg.com/@magic-ext/web3modal-ethers5/-/web3modal-ethers5-0.1.1-canary.742.9175925480.0.tgz#4c61fcee2db30528d1f2c7ab59167ec18338a3fa"
+  integrity sha512-KlLFv0OBL9GajmT5vR4cAzYaI0R5ciH3tHruuE58Ln0M2uv8vCjc3yW8VC8nXEGuhUNVq2Pv9mIEQproQ2LCiQ==
   dependencies:
     "@web3modal/ethers5" "^4.1.11"
     ethers "5.7.2"
 
-"@magic-sdk/commons@24.0.3-canary.742.9162849285.0":
-  version "24.0.3-canary.742.9162849285.0"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/commons/-/commons-24.0.3-canary.742.9162849285.0.tgz#c346cac753f5ab583157c21b335c5f57506ab03d"
-  integrity sha512-NuAYFMarfapKKdv+1PK6iw7EhULddWr2q/U5HWFwNLrozNlUyKmnaAVdDPJtR1nPpsPWea7qMOfZW8VZS23ALw==
+"@magic-sdk/commons@24.0.3-canary.742.9175925480.0":
+  version "24.0.3-canary.742.9175925480.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/commons/-/commons-24.0.3-canary.742.9175925480.0.tgz#0cb973446f10e97b50c9178aa45f0ce80dbcd7d9"
+  integrity sha512-oa5YoXDMYADTtgPkUPsl5AA/YoecMNZlnabmNqNTMFsN0bJXhARmJHoNJOMxyeCKu1sa5YGgsDOWKgHh93IGKQ==
 
-"@magic-sdk/provider@28.0.3-canary.742.9162849285.0":
-  version "28.0.3-canary.742.9162849285.0"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-28.0.3-canary.742.9162849285.0.tgz#69c6cafc38aa94e9b5ad77135d627526cb196db5"
-  integrity sha512-tIhQOOVWHRoS2l6LegfnUhtQUpOYmdur+w1vpJL1aHVGv8eLX+MZyDA6hF3ONhKT4/H6deTlldrKGArlhYZy1g==
+"@magic-sdk/provider@28.0.3-canary.742.9175925480.0":
+  version "28.0.3-canary.742.9175925480.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-28.0.3-canary.742.9175925480.0.tgz#570fc630978662be70d6d2ceae17192a5142004a"
+  integrity sha512-FjkqkvBVbOjJbHQHz2KnxkxN2EVoLyLxd7zH3LbvbvYWtkjNvv3LwSeqd8w9eVqoZ/9uD17g0tAOwoBlts5g+g==
   dependencies:
-    "@magic-sdk/types" "24.0.2-canary.742.9162849285.0"
+    "@magic-sdk/types" "24.0.2-canary.742.9175925480.0"
     eventemitter3 "^4.0.4"
     web3-core "1.5.2"
 
-"@magic-sdk/types@24.0.2-canary.742.9162849285.0":
-  version "24.0.2-canary.742.9162849285.0"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-24.0.2-canary.742.9162849285.0.tgz#41b3f41460b0f393d0d583354975f6cd9adfc144"
-  integrity sha512-VuiP1ByDobnU+5ENXsYiJPibqSUAglrpZJH0ZkIBj8VpY7gDT4RY/EiB4UNT44j6djeYQ8V9PmjTHP3hHXNIhw==
+"@magic-sdk/types@24.0.2-canary.742.9175925480.0":
+  version "24.0.2-canary.742.9175925480.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-24.0.2-canary.742.9175925480.0.tgz#9da1ab4bfc5db993623e108ecec1a87d670e3692"
+  integrity sha512-b7IbDp9IUUV+nWXEF87d+axGU/nFYH2wZLtGx/lMN2SZ6ZTgcbflXGirNM3BVx0RTUMCMtsBckYwoDOSjwaNZg==
 
 "@metamask/eth-json-rpc-provider@^1.0.0":
   version "1.0.1"
@@ -8673,14 +8673,14 @@ lz-string@^1.5.0:
   resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.5.0.tgz#c1ab50f77887b712621201ba9fd4e3a6ed099941"
   integrity sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==
 
-magic-sdk@28.0.4-canary.742.9162849285.0:
-  version "28.0.4-canary.742.9162849285.0"
-  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-28.0.4-canary.742.9162849285.0.tgz#d86c4cbca565c68df790a54945085124ebf4a5f6"
-  integrity sha512-wAaTyoGGbzXAmuRw8J0wJOWZCnw1TlJd+felQMck/zbdYQeG/7fJc3zdPUa6Sm2/5Tgw5VnHj5ujShsMaA01fg==
+magic-sdk@28.0.4-canary.742.9175925480.0:
+  version "28.0.4-canary.742.9175925480.0"
+  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-28.0.4-canary.742.9175925480.0.tgz#f7838746a388388a21abf74659e333965c4db5b7"
+  integrity sha512-P+ysWx0SIjxsc/6WarvrqYv1nWGqwYzCHGHikQ7vsREbu9R6/xItYLs8Lmrt6hH3XvjfBogcG0q0LIxutxplDg==
   dependencies:
-    "@magic-sdk/commons" "24.0.3-canary.742.9162849285.0"
-    "@magic-sdk/provider" "28.0.3-canary.742.9162849285.0"
-    "@magic-sdk/types" "24.0.2-canary.742.9162849285.0"
+    "@magic-sdk/commons" "24.0.3-canary.742.9175925480.0"
+    "@magic-sdk/provider" "28.0.3-canary.742.9175925480.0"
+    "@magic-sdk/types" "24.0.2-canary.742.9175925480.0"
     localforage "^1.7.4"
 
 magic-string@^0.25.0, magic-string@^0.25.7:
