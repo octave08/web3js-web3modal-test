@@ -7,6 +7,7 @@ function initializeMagic() {
   let apiKey = params.get("api_key") || 'pk_live_79389E9CFEDB2ED8';
   const magic = new Magic(apiKey, {
     extensions: [new Web3ModalExtension(web3modalParams)],
+    network: 'sepolia',
   });
   magic.web3modal.initialize();
   return magic;

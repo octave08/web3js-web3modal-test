@@ -4,14 +4,6 @@ import { Web3ModalExtensionOptions } from "@magic-ext/web3modal-ethers5/dist/typ
 const projectId = 'b87562395f3da5dc8f836883773f74dc';
 
 // 2. Set chains
-const mainnet = {
-  chainId: 1,
-  name: 'Ethereum',
-  currency: 'ETH',
-  explorerUrl: 'https://etherscan.io',
-  rpcUrl: 'https://cloudflare-eth.com',
-};
-
 const sepolia = {
   chainId: 11155111,
   name: 'Sepolia',
@@ -31,7 +23,7 @@ const metadata = {
 export const web3modalParams = {
   configOptions: metadata,
   modalOptions: {
-    chains: [mainnet, sepolia],
+    chains: [sepolia],
     projectId,
     themeVariables: { "--w3m-border-radius-master": "8" },
   },
