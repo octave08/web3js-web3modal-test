@@ -57,6 +57,16 @@ function App() {
     console.log('signedMessage', signedMessage);
   };
 
+  const handleNftCheckout = async () => {
+    await magic.nft.checkout({
+      contractId: '1e719eaa-990e-41cf-b2e0-a4eb3d5d1312',
+      tokenId: '2',
+      name: 'Portal',
+      imageUrl: 'https://nft-cdn.alchemy.com/matic-mumbai/5d55353a3f95997ce7b33bc08c6832ed',
+      quantity: 1,
+    })
+  }
+
   return (
     <div className="App">
       {!publicAddress ? (
@@ -74,6 +84,10 @@ function App() {
           <div className="container">
             <h1>Personal Sign</h1>
             <button onClick={handlePersonalSign}>Sign</button>
+          </div>
+          <div className="container">
+            <h1>NFT Checkout</h1>
+            <button onClick={handleNftCheckout}>Execute</button>
           </div>
         </div>
       )}
