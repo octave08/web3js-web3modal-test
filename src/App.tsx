@@ -70,6 +70,7 @@ function App() {
       name: 'Portal',
       imageUrl: 'https://nft-cdn.alchemy.com/matic-mumbai/5d55353a3f95997ce7b33bc08c6832ed',
       quantity: 1,
+      walletAddress: publicAddress,
     })
   }
 
