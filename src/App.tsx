@@ -65,10 +65,10 @@ function App() {
 
   const handleNftCheckout = async () => {
     await magic.nft.checkout({
-      contractId: '1e719eaa-990e-41cf-b2e0-a4eb3d5d1312',
-      tokenId: '2',
-      name: 'Portal',
-      imageUrl: 'https://nft-cdn.alchemy.com/matic-mumbai/5d55353a3f95997ce7b33bc08c6832ed',
+      contractId: 'af551cb5-2a6b-4035-b362-6029ba6b5ae7',
+      tokenId: '0',
+      name: 'Asset 3',
+      imageUrl: 'https://i.seadn.io/s/raw/files/5428206b73fd06c3bd15257ed67be95f.jpg',
       quantity: 1,
     })
   }
