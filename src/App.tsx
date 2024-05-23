@@ -70,6 +70,7 @@ function App() {
       name: 'Asset 3',
       imageUrl: 'https://i.seadn.io/s/raw/files/5428206b73fd06c3bd15257ed67be95f.jpg',
       quantity: 1,
+      walletAddress: publicAddress,
     })
   }
 
