@@ -65,7 +65,7 @@ function App() {
 
   const handleNftCheckout = async () => {
     await magic.nft.checkout({
-      contractId: 'af551cb5-2a6b-4035-b362-6029ba6b5ae7',
+      contractId: '9e04ce1a-cdee-48a8-bb4b-914c6b416345',
       tokenId: '0',
       name: 'Asset 3',
       imageUrl: 'https://i.seadn.io/s/raw/files/5428206b73fd06c3bd15257ed67be95f.jpg',
