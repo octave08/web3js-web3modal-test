@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   const isLoggedIn = () => {
-    magic.user.isLoggedIn().then((res) => console.log('isLoggedIn', res));
+    magic.user.isLoggedIn().then((res: boolean) => console.log('isLoggedIn', res));
   }
 
   const getInfo = () => {
@@ -39,16 +39,16 @@ function App() {
       console.log('user info', metadata);
       setPublicAddress(metadata.publicAddress);
     })
-    .catch(e => console.error(e));
+    .catch((e: any) => console.error(e));
   }
 
-  const login = () => {
+  const login = (autoPrompt: boolean) => {
     magic.wallet
-      .connectWithUI()
-      .on('id-token-created', ({ idToken }) => {
+      .connectWithUI({ autoPromptThirdPartyWallets: autoPrompt })
+      .on('id-token-created', ({ idToken }: { idToken: string}) => {
         console.log('did token', idToken);
       })
-      .then(user => {
+      .then((user: string[]) => {
         console.log('user', user);
         setPublicAddress(user[0]);
       })
@@ -59,7 +59,7 @@ function App() {
 
   const handlePersonalSign = async () => {
     const originalMessage = 'YOUR_MESSAGE';
-    const signedMessage = await web3.eth.personal.sign(originalMessage, publicAddress, '');
+    const signedMessage = await web3.eth.personal.sign(originalMessage, web3.utils.toChecksumAddress(publicAddress), '');
     console.log('signedMessage', signedMessage);
   };
 
@@ -79,7 +79,8 @@ function App() {
       {!publicAddress ? (
         <div className="container">
           <h1>Please sign up or login</h1>
-          <button onClick={login}>Login / Sign up</button>
+          <button onClick={() => login(false)}>Login / Sign up</button>
+          <button onClick={() => login(true)}>Login / Sign up (auto prompt 3pw)</button>
         </div>
       ) : (
         <div>
