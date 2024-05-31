@@ -56,9 +56,9 @@ function App() {
 
   const handleNftCheckout = async () => {
     await magic.nft.checkout({
-      contractId: '44d5724e-1bfc-494b-9850-82850eef782d',
+      contractId: '8252bc41-1a49-46a9-92a0-1c4a98bc65f4',
       tokenId: '0',
-      name: 'Forbes Legacy Pass Test 8',
+      name: 'Asset',
       imageUrl: 'https://i.seadn.io/s/raw/files/5428206b73fd06c3bd15257ed67be95f.jpg',
       quantity: 1,
       walletAddress: publicAddress,
