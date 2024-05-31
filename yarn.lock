@@ -2054,32 +2054,32 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.2.0"
 
-"@magic-ext/web3modal-ethers5@0.1.1-canary.742.9288959572.0":
-  version "0.1.1-canary.742.9288959572.0"
-  resolved "https://registry.yarnpkg.com/@magic-ext/web3modal-ethers5/-/web3modal-ethers5-0.1.1-canary.742.9288959572.0.tgz#cf164d10a0cf315d6de4abe0338a2ffbae10d2de"
-  integrity sha512-H3UGUYt2SRItOoQfqHFk91iACvcDVA1e94Gd4ikH+bUgETPeaL50E4evE2xFZY7vOMExd+VYmtV0gdIx8UuYew==
+"@magic-ext/web3modal-ethers5@0.1.1-canary.742.9318503451.0":
+  version "0.1.1-canary.742.9318503451.0"
+  resolved "https://registry.yarnpkg.com/@magic-ext/web3modal-ethers5/-/web3modal-ethers5-0.1.1-canary.742.9318503451.0.tgz#e2d63bd00d27480d4abdc93c3c4152be7c6a83d0"
+  integrity sha512-KGzmmuRDt/Lcm/M52psrG9FcAdggYHh818ah1pNr9/Z3g7969qxVE96UMbpSfkYhKxqB15XD3pMUFizTbsGgpQ==
   dependencies:
     "@web3modal/ethers5" "4.1.12-ethers-status.0"
     ethers "5.7.2"
 
-"@magic-sdk/commons@24.0.3-canary.742.9288959572.0":
-  version "24.0.3-canary.742.9288959572.0"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/commons/-/commons-24.0.3-canary.742.9288959572.0.tgz#a412463d9c9a46b915282a2a4221f0dadb7c97c7"
-  integrity sha512-hUZ4yEwSwvkQ49jKvLLQipzt02ba+Io04H7ml+wEEP7u1VZ8f/IK3KAAEHnB/UAmQ/lU+NjXby0nByOCIyCc/w==
+"@magic-sdk/commons@24.0.3-canary.742.9318503451.0":
+  version "24.0.3-canary.742.9318503451.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/commons/-/commons-24.0.3-canary.742.9318503451.0.tgz#9917403ed29c4c52380e656ee139f029c5b73f18"
+  integrity sha512-OCA9r9Mk9kURhIWQx8lGGP53MeSvWlON01QOBpfs6iuWhednfgIHbywPmteP90ChfDLA6gQzp0DQsqiBun+fuQ==
 
-"@magic-sdk/provider@28.0.3-canary.742.9288959572.0":
-  version "28.0.3-canary.742.9288959572.0"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-28.0.3-canary.742.9288959572.0.tgz#2bccf6f25a6010c4de84a80286cfc49442567595"
-  integrity sha512-JEpbRqlWKpq9c5BC0waS2Pwbfqdabs8Xy50CTJu9iBJaMroaFJM/VGhWDs5GXjiNtmQaMbAaAhh2HkQ35GZf3g==
+"@magic-sdk/provider@28.0.3-canary.742.9318503451.0":
+  version "28.0.3-canary.742.9318503451.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-28.0.3-canary.742.9318503451.0.tgz#213f18d11a6533dc91d876bc163d7b55e2356f56"
+  integrity sha512-NT9ULlxuu0QSCMUvFVN0tdJzVwHvP63dEP1cCtksHLsp10c0CStkRjvpBF8Z7XT1iLGU0gssei0Pjoj/3KmKdg==
   dependencies:
-    "@magic-sdk/types" "24.0.2-canary.742.9288959572.0"
+    "@magic-sdk/types" "24.0.2-canary.742.9318503451.0"
     eventemitter3 "^4.0.4"
     web3-core "1.5.2"
 
-"@magic-sdk/types@24.0.2-canary.742.9288959572.0":
-  version "24.0.2-canary.742.9288959572.0"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-24.0.2-canary.742.9288959572.0.tgz#e8bf37ff5a47d34d449971df882d8ca4e24c293c"
-  integrity sha512-tRKqVCpY8bFswDIxVLzpyixl6HaxE7MIC2mE3tNZRhYVTAWT3ctSgcTu2zoVNdBZct5HH/rYx/k5S+j1I6/E1g==
+"@magic-sdk/types@24.0.2-canary.742.9318503451.0":
+  version "24.0.2-canary.742.9318503451.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-24.0.2-canary.742.9318503451.0.tgz#fad2e1fbb6a876b4dd57da7bb6fa45fddf349e7c"
+  integrity sha512-wjFakqz/i7p+jo/TMTf6oaqGWg1ZCtqdRc8miIUpR4FtdNm4dvY741lqGxDqphZFq5FN9ykc2tRsAKcXaXPQmQ==
 
 "@metamask/eth-json-rpc-provider@^1.0.0":
   version "1.0.1"
@@ -8673,14 +8673,14 @@ lz-string@^1.5.0:
   resolved "https://registry.npmjs.org/lz-string/-/lz-string-1.5.0.tgz"
   integrity sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==
 
-magic-sdk@28.0.4-canary.742.9288959572.0:
-  version "28.0.4-canary.742.9288959572.0"
-  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-28.0.4-canary.742.9288959572.0.tgz#5c441fe2d8b2db7a09a696d50f5b48355cde8871"
-  integrity sha512-WRRATU+XZAPCrfq8JcWHGqO2QlKQ14xqTE6LOeaBdMlLd99rin7OmKk1rep9cxqE7eVD+2JZjEackUloRMyM8w==
+magic-sdk@28.0.4-canary.742.9318503451.0:
+  version "28.0.4-canary.742.9318503451.0"
+  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-28.0.4-canary.742.9318503451.0.tgz#d550354252a828dc1539f410d34e5d4baab38371"
+  integrity sha512-XL+ExcAm+1dmkXek7ZMK9Ve2unpoAjZmZmRVfv29J/h9OHKWiB7JNJRvtiBUGY+v31d5IDzEYjRkDGLJmmTNnA==
   dependencies:
-    "@magic-sdk/commons" "24.0.3-canary.742.9288959572.0"
-    "@magic-sdk/provider" "28.0.3-canary.742.9288959572.0"
-    "@magic-sdk/types" "24.0.2-canary.742.9288959572.0"
+    "@magic-sdk/commons" "24.0.3-canary.742.9318503451.0"
+    "@magic-sdk/provider" "28.0.3-canary.742.9318503451.0"
+    "@magic-sdk/types" "24.0.2-canary.742.9318503451.0"
     localforage "^1.7.4"
 
 magic-string@^0.25.0, magic-string@^0.25.7:
@@ -11221,7 +11221,16 @@ string-natural-compare@^3.0.1:
   resolved "https://registry.npmjs.org/string-natural-compare/-/string-natural-compare-3.0.1.tgz"
   integrity sha512-n3sPwynL1nwKi3WJ6AIsClwBMa0zTi54fn2oLU6ndfTSIO05xaznjSf15PcBZU6FNWbmN5Q6cxT4V5hGvB4taw==
 
-"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.0:
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+string-width@^4.1.0, string-width@^4.2.0:
   version "4.2.3"
   resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -11308,7 +11317,14 @@ stringify-object@^3.3.0:
     is-obj "^1.0.1"
     is-regexp "^1.0.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -12849,7 +12865,7 @@ workbox-window@6.6.1:
     "@types/trusted-types" "^2.0.2"
     workbox-core "6.6.1"
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
   version "7.0.0"
   resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
@@ -12862,6 +12878,15 @@ wrap-ansi@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+wrap-ansi@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
   dependencies:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
