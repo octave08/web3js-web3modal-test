@@ -3,9 +3,7 @@ import { Magic } from "magic-sdk";
 import { web3modalParams } from "./web3modal-utils";
 
 function initializeMagic() {
-  let params = new URL((document as any).location).searchParams;
-  let apiKey = params.get("api_key") || 'pk_live_C3D0E30205EBD73A';
-  const magic = new Magic(apiKey, {
+  const magic = new Magic('pk_live_C3D0E30205EBD73A', {
     extensions: [new Web3ModalExtension(web3modalParams)],
     network: 'sepolia',
   });

@@ -1,11 +1,9 @@
 import { useEffect, useState } from 'react';
-import Web3 from 'web3';
 import { magic } from './magic';
 import './App.css';
 
 function App() {
   const [publicAddress, setPublicAddress] = useState('');
-  const web3 = new Web3(magic.rpcProvider);
 
   useEffect(() => {
     magic.rpcProvider.on('accountsChanged', (accounts: string[]) => {
@@ -28,9 +26,6 @@ function App() {
     });
   }, []);
 
-  const isLoggedIn = () => {
-    magic.user.isLoggedIn().then((res: boolean) => console.log('isLoggedIn', res));
-  }
 
   const getInfo = () => {
     magic.user
@@ -57,17 +52,13 @@ function App() {
 
   const logout = () => magic.user.logout().then(() => setPublicAddress(''));
 
-  const handlePersonalSign = async () => {
-    const originalMessage = 'YOUR_MESSAGE';
-    const signedMessage = await web3.eth.personal.sign(originalMessage, web3.utils.toChecksumAddress(publicAddress), '');
-    console.log('signedMessage', signedMessage);
-  };
+
 
   const handleNftCheckout = async () => {
     await magic.nft.checkout({
-      contractId: '9e04ce1a-cdee-48a8-bb4b-914c6b416345',
+      contractId: '44d5724e-1bfc-494b-9850-82850eef782d',
       tokenId: '0',
-      name: 'Asset 3',
+      name: 'Forbes Legacy Pass Test 8',
       imageUrl: 'https://i.seadn.io/s/raw/files/5428206b73fd06c3bd15257ed67be95f.jpg',
       quantity: 1,
       walletAddress: publicAddress,
@@ -87,13 +78,7 @@ function App() {
           <div className="container">
             <h1>Current User</h1>
             <div className="info">{publicAddress}</div>
-            <button onClick={isLoggedIn}>isLoggedIn</button>
-            <button onClick={getInfo}>GetUserInfo</button>
             <button onClick={logout}>Logout</button>
-          </div>
-          <div className="container">
-            <h1>Personal Sign</h1>
-            <button onClick={handlePersonalSign}>Sign</button>
           </div>
           <div className="container">
             <h1>NFT Checkout</h1>
